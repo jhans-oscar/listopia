@@ -8,9 +8,12 @@ No ready yet - sorry
 
 ## Installation
 
-git clone https://github.com/yourusername/listopia.git
+```bahs
+git clone https://github.com/jhans-oscar/listopia.git
+
 cd listopia
-python3 task_tracker_cli_v2.py
+python3 listopia_v2.py
+```
 
 ## Commands / CLI Usage
 
