@@ -4,7 +4,7 @@
 
 ## Demo
 
-No ready yet - sorry
+![App Demo](demo.gif)
 
 ## Installation
 
