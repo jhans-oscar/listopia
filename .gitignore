@@ -1,0 +1,21 @@
+# Local task DB
+tasks.json
+tasks.json.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Editor / OS junk
+.DS_Store
+.vscode/
+.idea/
+
+# Environment files
+.env

@@ -1,29 +1,22 @@
-# Task Tracker (CLI)
+# Listopia v2 – Task Tracker CLI
 
-A simple command-line task manager written in Python.
-You can add, list, update, delete, and change the status of tasks.
-Tasks are stored locally in a JSON file (tasks.json).
+**Tagline:** Because even chaos deserves a list. ✅
 
+<<<<<<< HEAD
 ### The project idea came from:
 
 https://roadmap.sh/projects/task-tracker
 
 ## Features
+=======
+## Demo
+>>>>>>> 4677349 (Listopia V2)
 
-- List tasks, optionally filtered by status (todo, in-progress, done).
-
-- Update a task’s description.
-
-- Delete tasks by ID.
-
-- Change the status of a task.
-
-- Auto-generates unique IDs for tasks.
-
-- Handles corrupted JSON by creating a backup.
+[video here]
 
 ## Installation
 
+<<<<<<< HEAD
 Clone the repository and run with Python 3:
 
 ```python
@@ -35,65 +28,42 @@ python3 task_tracker_v1.py <command> [args]
 No external dependencies are required.
 
 ## Usage
+=======
+Clone the repo:
+>>>>>>> 4677349 (Listopia V2)
 
 ```bash
-python3 task_tracker_v1.py <command> [args]
+git clone https://github.com/jhans-oscar/listopia.git
+cd listopia
 ```
 
-### Commands
-
-- Add a task
+Run the CLI:
 
 ```bash
-python3 task_tracker_v1.py add "Buy milk"
+python3 task_tracker_cli_v2.py
 ```
 
-- List all tasks
 
-```bash
-python3 task_tracker_v1.py list
-```
+## Commands / CLI Usage
 
-- List only tasks with a specific status
+| Command         | Description                                            |
+| --------------- | ------------------------------------------------------ |
+| add             | Add a new task                                         |
+| list            | Show all tasks                                         |
+| list (filtered) | Filter tasks by status (`todo`, `in-progress`, `done`) |
+| update          | Update task description by ID                          |
+| delete          | Delete a task by ID                                    |
+| status          | Change a task’s status                                 |
 
-```bash
-python3 task_tracker_v1.py list done
-```
 
-- Update a task description
-
-```bash
-python3 task_tracker_v1.py update 1 "Buy milk and eggs"
-```
-
-- Delete a task
-
-```bash
-python3 task_tracker_v1.py delete 1
-```
-
-- Change a task's status
-
-```bash
-python3 task_tracker_v1.py status 2 in-progress
-```
 
 ## File Storage
 
-All tasks are stoed in tasks.json.
+All tasks are stored in tasks.json.
 If the file is corrupted, the program creates a backup (tasks.json.bak) before resetting it.
 
-## Example
+---
 
-```bash
-$ python3 task_tracker_v1.py add "Learn Python"
-✅ Task added successfully (ID: 1): Learn Python
+## Inspiration
 
-$ python3 task_tracker_v1.py list
-📋 Tasks:
-[1] Learn Python (todo)
-  Created: 2025-09-26T12:00:00
-  Updated: 2025-09-26T12:00:00
-----------------------------------------
-```
-
+This project was inspired by the task tracker idea on [Roadmap.sh](https://roadmap.sh/projects/task-tracker).
