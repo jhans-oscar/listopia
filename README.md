@@ -27,8 +27,8 @@ https://roadmap.sh/projects/task-tracker
 Clone the repository and run with Python 3:
 
 ```python
-git clone https://github.com/yourusername/task-tracker.git
-cd task-tracker
+git clone https://github.com/jhans-oscar/task-tracker-cli
+cd task-tracker-cli
 python3 task_tracker_v1.py <command> [args]
 ```
 
