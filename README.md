@@ -12,7 +12,7 @@ No ready yet - sorry
 git clone https://github.com/jhans-oscar/listopia.git
 
 cd listopia
-python3 listopia_v2.py
+python3 listopia.py
 ```
 
 ## Commands / CLI Usage
