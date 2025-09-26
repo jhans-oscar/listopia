@@ -2,21 +2,12 @@
 
 **Tagline:** Because even chaos deserves a list. ✅
 
-<<<<<<< HEAD
-### The project idea came from:
-
-https://roadmap.sh/projects/task-tracker
-
-## Features
-=======
 ## Demo
->>>>>>> 4677349 (Listopia V2)
 
-[video here]
+No ready yet - sorry
 
 ## Installation
 
-<<<<<<< HEAD
 Clone the repository and run with Python 3:
 
 ```python
@@ -28,9 +19,8 @@ python3 task_tracker_v1.py <command> [args]
 No external dependencies are required.
 
 ## Usage
-=======
+
 Clone the repo:
->>>>>>> 4677349 (Listopia V2)
 
 ```bash
 git clone https://github.com/jhans-oscar/listopia.git
